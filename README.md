@@ -4,7 +4,9 @@ AidEase(Health-Care Website)
 AidEase
 - This name combines "Aid," which suggests assistance and support, with "Ease," which suggests simplicity and comfort. The name has a clear and straightforward message, indicating that the website provides easy-to-use assistance for people with health-related issues. The name is also simple and easy to pronounce, making it easy for people to remember and recommend to others.
 
-- Join us, let's build a platform to show more informatation like where can we get help,if help is needed to us...
+
+- <p align="center"><b>AidEase is a healthcare website that provides instant help for health issues requiring multiple hospital consultations, saving time and effort.<b></p>
+
 
 <div style="border: 20px solid #fff; padding: 10px;">
   <div align="center">
