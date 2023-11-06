@@ -6,128 +6,93 @@ AidEase
 
 - Join us, let's build a platform to show more informatation like where can we get help,if help is needed to us...
 
+<div style="border: 20px solid #fff; padding: 10px;">
+  <div align="center">
+    <img src="https://github.com/pixobia/Aidease/blob/main/public/images/about.png" width="30%" height="30%">
+  </div>
+</div>
+
+
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 ---
 
-## Getting Started 🚀🚀🚀:
+Features:
 
-- Fork this repo (button on top)
-- Clone on your local machine
+- Tailwind design
+- Tailwind animations and effects
+- Full responsiveness
+- Credential authentication
+- Google authentication
+- Github authentication
+- Image upload using Cloudinary CDN
+- Client form validation and handling using react-hook-form
+- Server error handling using react-toast
+- Calendars with react-date-range
+- Page loading state
+- Page empty state
+- Booking / Reservation system
+- Patient reservation cancellation
+- Owner reservation cancellation
+- Creation and deletion of listings
+- Pricing calculation
+- Advanced search algorithm by category, date range, map location, number of patients, rooms and bathrooms
+    - For example we will filter out listings that have a reservation in your desired date range to travel
+- Favorites system
+- Shareable URL filters
+    - Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results
+- How to write POST and DELETE routes in route handlers (app/api)
+- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
+- How to handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
+- How to handle relations between Server and Child components!
 
-```terminal
-git clone https://github.com/pixobia/AidEase.git
+---
+  
+### Prerequisites
+
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/AntonioErdeljac/next13-airbnb-clone.git
 ```
-- Navigate to project directory.
-```terminal
-cd AidEase
+
+### Install packages
+
+```shell
+npm i
 ```
 
-- Create a new Branch
+### Setup .env file
 
-```markdown
-git checkout -b my-new-branch
+
+```js
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_SECRET=
 ```
 
-<!--- - Add your Name to `contributors/contributorsList.js`. -->
+### Setup Prisma
 
-```markdown
-git add .
-```
-- Commit your changes.
+```shell
+npx prisma db push
 
-```markdown
-git commit -m "Relevant message"
-```
-- Then push 
-```markdown
-git push origin my-new-branch
 ```
 
+### Start the app
 
-- Create a new pull request from your forked repository
+```shell
+npm run dev
+```
 
-<br>
+## Available commands
 
-# Getting Started with Create React App
+Running commands with npm `npm run [command]`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-<h1 align="center">
-Most active contributors 🚀
-</h1>
-
-
-<a href="https://github.com/pixobia/AidEase/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pixobia/AidEase" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `dev`           | Starts a development instance of the app |
