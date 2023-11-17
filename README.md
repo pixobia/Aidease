@@ -8,11 +8,6 @@ AidEase
 - <p align="center"><b>AidEase is a healthcare website that provides instant help for health issues requiring multiple hospital consultations, saving time and effort.<b></p>
 
 
-<div style="border: 20px solid #fff; padding: 10px;">
-  <div align="center">
-    <img src="https://github.com/pixobia/Aidease/blob/main/public/images/about.png" width="30%" height="30%">
-  </div>
-</div>
 
 
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
